@@ -1,0 +1,12 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /userservice
+
+spring:
+  application:
+    name: userservice
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.188.100:8848
